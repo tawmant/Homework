@@ -17,15 +17,15 @@ if (randomNum <= 15) {
     console.log('четвертая четверть часа');
 }
 
-// const time = new Date(),
-//     getHours = time.getHours();
+const time = new Date(),
+    getHours = time.getHours();
 
-// if (getHours <= 5){
-//     alert('Доброй ночи');
-// } else if (getHours <= 11) {
-//     alert('Доброе утро');
-// } else if(getHours <= 18) {
-//     alert('Доброй день');
-// } else if(getHours <= 24) {
-//     alert('Добрый вечер');
-// } 
+if (getHours <= 5){
+    alert('Доброй ночи');
+} else if (getHours <= 11) {
+    alert('Доброе утро');
+} else if(getHours <= 18) {
+    alert('Доброй день');
+} else if(getHours <= 24) {
+    alert('Добрый вечер');
+} 
